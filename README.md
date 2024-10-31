@@ -1,2 +1,10 @@
 # Light-Link
 An Automated Smart Street Lighting System using Deep Learning, Self-orienting Solar Panels, and Cloud Deployment.
+
+This is a novel and economic system to conserve energy by targeting the place where it is used most: Street Lights. 
+
+“The world needs to double or triple its current spending—estimated at about $400 billion a year—to meet the United Nations' goal of bringing clean and modern electricity to all people by 2030.” This fact, in addition to the vast amounts of energy I saw wasted in the society around me, inspired me to design this project.
+
+These smart street lights, accompanied by cameras with image processing capability, will use Region-based Convolutional Neural Networks to sense objects in the surrounding. This will be used to automatically control whether that street light is on/off and if on, to what value of intensity will it be set (5-paramter threshold) - according to the number of vehicles detected and their distance from the street light. Each street light will have an LDR to calculate the amount of sunlight present, and therefore, the intensity of light to be emitted. The brain of this project is the Raspberry Pi. Each street light will be powered by a heliostat solar panel (essentially, sun-tracked panels moving in the direction of maximum sunlight). These panels also possess self-cleaning ability to remove dust. This process will be connected to a mobile app to display all the real-time information and also to detect any problems. This cloud-based mobile app will also detect the exact component in which the problem lies and display the same for the relevant authorities, who can then send technicians to repair the street light immediately.
+
+By my calculations, this system will utilize zero electricity and only resort to the 12V battery power at night. Solar panels will cover all the street electricity needs for the foreseeable future. The main statistic I am looking at is the initial cost required for implementation. This will be completely paid for by the self-sustaining heliostat solar panels in an astonishing 5-6 years.
